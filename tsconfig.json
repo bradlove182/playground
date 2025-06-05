@@ -3,18 +3,18 @@
         "target": "ESNext",
         "module": "ESNext",
         "moduleResolution": "bundler",
-        "allowJs": true,
-        "checkJs": true,
-        "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
-        "skipLibCheck": true,
-        "sourceMap": true,
-        "strict": true,
         "types": [
             "vitest/globals"
         ],
-        "isolatedModules": true
+        "allowJs": true,
+        "checkJs": true,
+        "strict": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "skipLibCheck": true
     },
     "include": [
         "src/**/*",
@@ -22,6 +22,6 @@
         "vitest.config.ts"
     ],
     "exclude": [
-        "node_modules",
+        "node_modules"
     ]
 }

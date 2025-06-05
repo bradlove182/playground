@@ -1,4 +1,6 @@
 ignoredBuiltDependencies:
-  - unrs-resolver
+    -   unrs-resolver
 onlyBuiltDependencies:
-  - esbuild
+    -   esbuild
+    -   unrs-resolver
+    -   typescript

@@ -1,15 +1,17 @@
 {
     "name": "playground",
     "version": "1.0.0",
+    "packageManager": "pnpm@10.11.0",
     "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "vitest"
-    },
-    "keywords": [],
     "author": "",
     "license": "ISC",
-    "packageManager": "pnpm@10.11.0",
+    "keywords": [],
+    "main": "index.js",
+    "scripts": {
+        "test": "vitest",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
+    },
     "devDependencies": {
         "@antfu/eslint-config": "^4.13.3",
         "eslint": "^9.28.0",

@@ -1,15 +1,15 @@
-import { describe, it } from 'vitest'
+import { describe, it } from "vitest"
 
-describe('repl', () => {
-  it('init', () => {
+describe("repl", () => {
+    it("init", () => {
 
-  })
+    })
 
-  it('run', () => {
+    it("run", () => {
 
-  })
+    })
 
-  it('exit', () => {
+    it("exit", () => {
 
-  })
+    })
 })
