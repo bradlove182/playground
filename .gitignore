@@ -10,3 +10,5 @@
 /test-results.xml
 /test-results.json
 /test-results.html
+.env
+.env.*
